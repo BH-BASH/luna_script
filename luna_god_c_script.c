@@ -11,7 +11,7 @@ int main() {
     printf("君の名前 %s\n", user_name);
     printf("ルナ様「なるほど、君の名前は%sと言うのだな」\n", user_name);
     printf("ルナ様「%s、最近の調子はどうだ？」\n", user_name);
-    printf("[選択肢:y/n]\n");
+    printf("[選択肢:y/n]");
     char status[2];
     fgets(status, sizeof(status), stdin);
     status[strcspn(status, "\n")] = 0;  // Remove newline character
