@@ -3,7 +3,7 @@
 print("ルナ様ァアア！！！")
 print("ルナ様「君の名前を教えてくれないか？」")
 user_name = input("your name: ")
-print("君の名前", {user_name})
+print(f"君の名前", {user_name})
 print(f"ルナ様「なるほど、君の名前は{user_name}と言うのだな」")
 print(f"ルナ様「{user_name}、最近の調子はどうだ？」")
 print("[選択肢:y/n]")
