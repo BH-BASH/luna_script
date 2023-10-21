@@ -12,11 +12,11 @@
 
 3-1.ルナ様に権限付与しよう！！
 
-sudo chmod +x luna-god-script.sh
+`chmod +x luna_god_script.sh`
 
 3-2.ルナ様とお話しよう！！
 
-sudo ./luna-god-script.sh
+`./luna_god_script.sh`
 
 4.その他
 
