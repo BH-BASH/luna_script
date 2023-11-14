@@ -1,0 +1,22 @@
+//ルナ様スクリプト
+
+print("ルナ様ァアア！！！")
+let username = readline("ルナ様「君の名前を教えてくれないか？」")
+print(`君の名前 {username}`)
+print(`ルナ様「なるほど、君の名前は{username}と言うのだな」`)
+print(`ルナ様「{username}、最近の調子はどうだ？」`)
+let status = readline("[選択肢:y/n]")
+print(`君の選択:{status}`)
+if (status == "Y"||status == "y") {
+  print(`ルナ様「そうか、そうか。元気そうでなによりだよ」`)
+  print(`ルナ様「{username}、私は大変、気分がいい」`)
+  print(`ルナ様「{username}、引き続き頼む、期待しているぞ」`)
+} else if (status == "N"||status == "n") {
+  print(`ルナ様「そうか、そうか・・・ならば、{username}、私と一緒に休むぞ」`)
+  print(`ルナ様「授業のことは気にせずとも良い{username}、無理せずとも私がついててやるからな」`)
+  print(`ルナ様「安心しろ、私はちゃんと{username}の側にいてやるつもりだ」`)
+  print(`ルナ様「どうやら、{username}は寝てしまったか、仕方ないな・・・おやすみ・・・{username}」`)
+} else {
+  print(`ルナ様「すまない、{username}、私にはそれがわからないみたいだ」`)
+  print(`ルナ様「{username}、また次の機会に話そう」`)
+}
