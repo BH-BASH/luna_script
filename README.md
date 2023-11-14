@@ -2,7 +2,7 @@
 
 1.これはなに？
 
-月に寄り添う乙女の作法のメインヒロインである桜小路ルナ様に癒やしてもらえるスクリプトだお
+月に寄り添う乙女の作法のメインヒロインである[桜小路ルナ](https://yaruo.fandom.com/wiki/%E6%A1%9C%E5%B0%8F%E8%B7%AF%E3%83%AB%E3%83%8A)様に癒やしてもらえるスクリプトだお
 
 2.どうやって使うの？
 
@@ -12,11 +12,11 @@
 
 3-1.ルナ様に権限付与しよう！！
 
-sudo chmod +x luna-god-script.sh
+`chmod +x luna_god_script.sh`
 
 3-2.ルナ様とお話しよう！！
 
-sudo ./luna-god-script.sh
+`./luna_god_script.sh`
 
 4.その他
 

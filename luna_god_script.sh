@@ -5,12 +5,12 @@ echo "ルナ様ァアア！！！"
 figlet Luna-Script
 echo "ルナ様「君の名前を教えてくれないか？」"
 read user_name
-echo "君の名前:$user_name"
-echo "ルナ様「なるほど、君の名前は$user_nameと言うのだな」"
+echo "君の名前: $user_name"
+echo "ルナ様「なるほど、君の名前は $user_name と言うのだな」"
 echo "ルナ様「$user_name、最近の調子はどうだ？」"
 echo "(Y:とても良い/N:悪い)"
-  read status
-   echo "$statusを選択"
+read status
+echo "$status を選択"
 
 if [ $status = Y ] ; then
   echo "ルナ様「そうか、そうか。元気そうでなによりだよ」"
@@ -19,8 +19,8 @@ if [ $status = Y ] ; then
 elif [ $status = N ] ; then
   echo "ルナ様「そうか、そうか・・・ならば、$user_name、私と一緒に休むぞ」"
   echo "ルナ様「授業のことは気にせずとも良い、$user_name、無理せずとも私がついててやるからな」"
-  echo "ルナ様「安心しろ、私はちゃんと$user_nameの側にいてやるつもりだ」"
-  echo "ルナ様「どうやら、$user_nameは寝てしまったか、仕方ないな・・・おやすみ・・・$user_nsme」"
+  echo "ルナ様「安心しろ、私はちゃんと $user_name の側にいてやるつもりだ」"
+  echo "ルナ様「どうやら、$user_name は寝てしまったか、仕方ないな・・・おやすみ・・・$user_name」"
 else
   echo "ルナ様「すまない、$user_nsme、私にはそれがわからないみたいだ」"
   echo "ルナ様「$user_name、また次の機会に話そう」"
